@@ -58,4 +58,4 @@ jobs:
           logout: true
 
       - name: 7. Docker Push
-        run: docker push ${{ secrets.DOCKER_USERNAME }}
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/istory
